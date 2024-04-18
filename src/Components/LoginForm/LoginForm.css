@@ -1,0 +1,190 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2px;
+    background-color: #f0ecec; 
+  }
+
+.wrapper {
+    background-color: rgb(100, 202, 197);
+    border: 4px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #000000;
+    border-radius: 20px;  
+    padding: 40px 40px;
+    margin-right: 200px;
+    margin-left: auto;
+
+    align-items: center;
+    justify-content: center;
+    display: block;
+    height: 450px;
+}
+
+.wrapper h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color:black;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #000000;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+    accent-color: #000000;
+    margin-right: 4px;   
+}
+
+.remember-forgot a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper button {
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(100, 202, 197);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  
+.header h2 {
+    padding: 3px;
+    font-size: 40px;
+}
+
+.header img {
+    width: 100px;
+    height: 70px;
+    padding: 5px;
+}
+  .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .box {
+    width: 40%;
+    height: 100%;
+    background-color: #f5f5f5;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+.right-side-box {
+    background-color: rgb(100, 202, 197);
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('C:\Users\DELL\Downloads\login-form\login-form\src\Components\Assets\Rectangle.png'), rgb(100, 202, 197);
+    
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px; 
+    text-align: right;
+    border-left: 1px solid #ccc;
+
+  }
+
+  .right-side-box h2 {
+    color: white;
+    font-size: 3rem;
+    margin-top :390px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+
+  }
+
+  .right-side-box img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
